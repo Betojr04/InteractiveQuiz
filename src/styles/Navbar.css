@@ -1,0 +1,55 @@
+/* CONTAINER STYLING */
+nav {
+    border: solid red 1px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 3rem;
+}
+
+/* NAV STYLING */
+.nav-logo {
+    margin-left: .8rem;
+}
+
+/* FORM STYLIGN */
+.nav-search {
+    margin-left: 20rem;
+}
+
+.nav-search label {
+    margin-right: .5rem;
+}
+
+.nav-search input {
+    padding: .5rem;
+    border-radius: 5px;
+    border: solid 1px #ccc;
+    margin-right: 1rem;
+}
+
+form button {
+    padding: .5rem;
+    border-radius: 5px;
+    border: solid 1px #ccc;
+}
+
+form button:hover {
+    background-color: lightblue;
+}
+
+/* NAV LINKS STYLING */
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-items li {
+    margin: 1rem;
+}
