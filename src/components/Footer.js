@@ -1,6 +1,10 @@
 import React from "react";
-import "../styles/Footer.csss";
+import "../styles/Footer.css";
 
 export const Footer = () => {
-  return <footer>This is the footer</footer>;
+  return (
+    <footer>
+      <p>© 2024 My Website</p>
+    </footer>
+  );
 };
