@@ -6,31 +6,54 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    /* width: 430px; */
-    width: 100vw;
+    width: 100%;
     height: 3rem;
+
+}
+
+/* LOGO STYLING */
+.nav-logo {
+    margin-left: .8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 /* HAMBURGER MENU STYLING */
-.nav-logo {
-    margin-left: .8rem;
+.hamburger-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: .8rem;
 }
 
-.hamburger-inner {
-    width: 100%;
-    height: 2px;
-    background-color: #333;
-    /* Adjust color as needed */
-    position: relative;
+.hamburger {
+    margin-right: .5rem;
+    color: blue;
+    background-color: white;
+    border: none;
+
 }
+
+.hamburger:hover {
+    /* background-color: lightblue; */
+}
+
 
 /* FORM STYLING */
 .nav-search {
-    /* margin-left: 1rem; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.3rem;
 }
 
 .nav-search label {
-    /* margin-right: .5rem; */
+    margin-right: .5rem;
 }
 
 .nav-search input {

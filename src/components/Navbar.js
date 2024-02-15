@@ -2,6 +2,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Navbar.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 export const Navbar = () => {
   return (
@@ -14,9 +16,10 @@ export const Navbar = () => {
       <form className="nav-search" action="/search" method="GET">
         <label htmlFor="search">Search:</label>
         <input type="search" name="query" />
-        <button type="submit">Search</button>{" "}
+        <button type="submit">Search</button>
         {/* this button will be hidden and will be used to submit the form with the search input */}
       </form>
+
       {/* HAMBURGER MENU */}
 
       <div className="hamburger-menu">
@@ -25,9 +28,7 @@ export const Navbar = () => {
           aria-label="Toggle-menu"
           aria-expanded="false"
         >
-          <span className="hamburger-box">
-            <span className="hamburger-inner"></span>
-          </span>
+          <FontAwesomeIcon icon={faBars} size="m" />
         </button>
         <div className="menu-items" hidden>
           <ul>

@@ -4,7 +4,7 @@ import "../styles/Footer.css";
 export const Footer = () => {
   return (
     <footer>
-      <p>© 2024 My Website</p>
+      <p>© 2024 Prosperum</p>
     </footer>
   );
 };
