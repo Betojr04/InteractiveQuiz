@@ -35,3 +35,21 @@ main {
 }
 
 /* NEED TO FIX THIS IMAGE SIZING AS WELL IT IS NOT EXACTLY THE ENTIRE WIDTH WITHOUT HAVING TO ADJUST MANUALLY WITH THE REMS AND THAT IS NOT BEST PRACTICE */
+
+
+.solution-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.problem-text h2,
+p {
+  text-align: center;
+}
+
+.solution-text h2,
+p {
+  text-align: center;
+}
