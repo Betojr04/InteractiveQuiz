@@ -5,8 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-
+  padding: 0;
 }
 
 code {
@@ -14,9 +13,19 @@ code {
     monospace;
 }
 
-html body {
-  overflow-x: auto;
-  overflow-y: auto;
-  height: 100%;
-  width: 100%;
+html,
+body,
+#root {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  /* overflow-x: hidden; */
+
+  /* THIS OVER FLOW X HIDDEN IS NOT PERMANET, STILL NEED TO FIX THE NAVBAR WIDTH SIZING ISSUE SINCE IT IS NOT EVEN WITH THE REST OF THE APPLICATION */
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }

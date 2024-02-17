@@ -5,7 +5,7 @@ footer {
     align-items: center;
     height: 3rem;
     border: solid 3px blue;
-    position: sticky;
+    /* position: sticky; */
 
     width: 100%;
 }
