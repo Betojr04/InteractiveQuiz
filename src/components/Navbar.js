@@ -6,6 +6,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 export const Navbar = () => {
+  const searchButton = () => {
+    alert("This button will be used to submit the form with the search input");
+  };
+
   return (
     <nav>
       {/* LOGO SECTION */}
@@ -16,7 +20,9 @@ export const Navbar = () => {
       <form className="nav-search" action="/search" method="GET">
         <label htmlFor="search">Search:</label>
         <input type="search" name="query" />
-        <button type="submit">Search</button>
+        <button onClick={searchButton} type="submit">
+          Search
+        </button>
         {/* this button will be hidden and will be used to submit the form with the search input */}
       </form>
 

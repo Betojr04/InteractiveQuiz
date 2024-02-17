@@ -1,7 +1,11 @@
-import React from "react";
-import "../styles/App.css";
+/* 
+  This file is the main view of the app. It contains the main sections of the app, the hero section, the solution section. It will be a functional component.
+*/
 
-export const App = () => {
+import React from "react";
+import "../styles/landingpage.css";
+
+export const LandingPage = () => {
   return (
     <main>
       <section className="hero-section">

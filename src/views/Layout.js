@@ -6,8 +6,14 @@ import { ErrorBoundary } from "react-error-boundary";
 import { Navbar } from "../components/Navbar.js";
 import { Footer } from "../components/Footer.js";
 //lazy loading
-const App = React.lazy(() =>
-  import("./App").then((module) => ({ default: module.App }))
+const LandingPage = React.lazy(() =>
+  import("./LandingPage.js").then((module) => ({ default: module.LandingPage }))
+);
+
+const HeroSection = React.lazy(() =>
+  import("../components/HeroSection.js").then((module) => ({
+    default: module.HeroSection
+  }))
 );
 
 //error boundary
@@ -29,7 +35,8 @@ export const Layout = () => {
       <ErrorBoundary FallbackComponent={ErrorFallback}>
         <Suspense fallback={<div>Loading...</div>}>
           <Routes>
-            <Route path="/" element={<App />} />
+            <Route path="/" element={<LandingPage />} />
+            <Route path="/hero" element={<HeroSection />} />
           </Routes>
         </Suspense>
       </ErrorBoundary>
