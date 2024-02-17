@@ -24,8 +24,8 @@ main {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 75%;
   border: 3px solid red;
   height: 300px;
-  width: auto;
+  width: 26.5rem;
 }
