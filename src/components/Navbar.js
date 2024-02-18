@@ -34,7 +34,7 @@ export const Navbar = () => {
           aria-label="Toggle-menu"
           aria-expanded="false"
         >
-          <FontAwesomeIcon icon={faBars} size="m" />
+          <FontAwesomeIcon icon={faBars} size="s" />
         </button>
         <div className="menu-items" hidden>
           <ul>
