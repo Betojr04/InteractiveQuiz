@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/solutionsection.css";
+import "../../styles/LandingPageStyles/solutionsection.css";
 
 export const SolutionSection = () => {
   return (

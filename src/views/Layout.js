@@ -11,9 +11,11 @@ const LandingPage = React.lazy(() =>
 );
 
 const HeroSection = React.lazy(() =>
-  import("../components/HeroSection.js").then((module) => ({
-    default: module.HeroSection
-  }))
+  import("../components/LandingPageComponents/HeroSection.js").then(
+    (module) => ({
+      default: module.HeroSection
+    })
+  )
 );
 
 //error boundary

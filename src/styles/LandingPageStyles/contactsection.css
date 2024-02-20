@@ -5,10 +5,21 @@ section {
     align-items: center;
 }
 
+/* CONTACT HEADER STYLES */
+.contact-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
 form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
+
 }

@@ -3,10 +3,10 @@
 */
 
 import React from "react";
-import "../styles/landingpage.css";
-import { HeroSection } from "../components/HeroSection";
-import { SolutionSection } from "../components/SolutionSection";
-import { ContactSection } from "../components/ContactSection";
+import "../styles/LandingPageStyles/landingpage.css";
+import { HeroSection } from "../components/LandingPageComponents/HeroSection";
+import { SolutionSection } from "../components/LandingPageComponents/SolutionSection";
+import { ContactSection } from "../components/LandingPageComponents/ContactSection";
 
 export const LandingPage = () => {
   return (
