@@ -18,6 +18,10 @@ const HeroSection = React.lazy(() =>
   )
 );
 
+const ContactPage = React.lazy(() =>
+  import("./ContactPage.js").then((module) => ({ default: module.ContactPage }))
+);
+
 //error boundary
 const ErrorFallback = ({ error, resetErrorBoundary }) => {
   return (
@@ -38,6 +42,7 @@ export const Layout = () => {
         <Suspense fallback={<div>Loading...</div>}>
           <Routes>
             <Route path="/" element={<LandingPage />} />
+            <Route path="/contactus" element={<ContactPage />} />
             <Route path="/hero" element={<HeroSection />} />
           </Routes>
         </Suspense>
