@@ -7,6 +7,7 @@ import "../styles/LandingPageStyles/landingpage.css";
 import { HeroSection } from "../components/LandingPageComponents/HeroSection";
 import { SolutionSection } from "../components/LandingPageComponents/SolutionSection";
 import { ContactSection } from "../components/LandingPageComponents/ContactSection";
+import { SocialsSection } from "../components/LandingPageComponents/SocialsSection";
 
 export const LandingPage = () => {
   return (
@@ -14,6 +15,7 @@ export const LandingPage = () => {
       <HeroSection />
       <SolutionSection />
       <ContactSection />
+      <SocialsSection />
     </main>
   );
 };
