@@ -10,14 +10,6 @@ const LandingPage = React.lazy(() =>
   import("./LandingPage.js").then((module) => ({ default: module.LandingPage }))
 );
 
-const HeroSection = React.lazy(() =>
-  import("../components/LandingPageComponents/HeroSection.js").then(
-    (module) => ({
-      default: module.HeroSection
-    })
-  )
-);
-
 const ContactPage = React.lazy(() =>
   import("./ContactPage.js").then((module) => ({ default: module.ContactPage }))
 );
@@ -43,7 +35,6 @@ export const Layout = () => {
           <Routes>
             <Route path="/" element={<LandingPage />} />
             <Route path="/contactus" element={<ContactPage />} />
-            <Route path="/hero" element={<HeroSection />} />
           </Routes>
         </Suspense>
       </ErrorBoundary>
