@@ -1,7 +1,7 @@
 /* This component will be the navbar that will be displayed on the top of the page. It will include the logo, a search bar, and the links to the different pages of the blog. It will be a functional component. */
 import React from "react";
 import { Link } from "react-router-dom";
-import "../styles/Navbar.css";
+import "../../styles/Navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 

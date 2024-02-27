@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { ErrorBoundary } from "react-error-boundary";
 
 //component imports
-import { Navbar } from "../components/Navbar.js";
+import { Navbar } from "../components/Nav/Navbar.js";
 import { Footer } from "../components/Footer.js";
 //lazy loading
 const LandingPage = React.lazy(() =>
