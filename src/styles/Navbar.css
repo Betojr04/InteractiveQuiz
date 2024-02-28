@@ -13,32 +13,14 @@ nav {
 
 /* LOGO STYLING */
 .nav-logo {
-    /* margin-left: .8rem; */
+    margin-left: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-/* HAMBURGER MENU STYLING */
-.hamburger-menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
 
-    /* margin-right: .8rem; */
-}
-
-.hamburger {
-    margin-right: .5rem;
-    color: blue;
-    background-color: white;
-    border: none;
-
-}
-
-/* .hamburger:hover {} */
 
 
 /* FORM STYLING */
@@ -55,14 +37,12 @@ nav {
 }
 
 .nav-search input {
-    /* padding: .5rem; */
     border-radius: 5px;
     border: solid 1px #ccc;
     margin-right: .5rem;
 }
 
 form button {
-    /* padding: .5rem; */
     border-radius: 5px;
     border: solid 1px #ccc;
 }
@@ -70,3 +50,5 @@ form button {
 form button:hover {
     background-color: lightblue;
 }
+
+/* NAV ITEMS STYLING */

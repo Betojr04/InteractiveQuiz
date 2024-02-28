@@ -23,68 +23,30 @@ export const Navbar = () => {
         <button onClick={searchButton} type="submit">
           Search
         </button>
-        {/* this button will be hidden and will be used to submit the form with the search input */}
       </form>
-      <div className="nav-items" hidden>
+
+      <div className="nav-items">
         <ul>
           <li>
             <Link to="/">Blog</Link>
           </li>
+
           <li>
             <Link to="/">Recipes</Link>
           </li>
+
           <li>
             <Link to="/">Key Features</Link>
           </li>
+
           <li>
             <Link to="/">Our Team</Link>
           </li>
+
           <li>
-            <Link to="/">Sign Up</Link>
-          </li>
-          <li>
-            <Link to="/contactus">Contact Us</Link>
+            <Link to="/contactus">Contact Us/Sign Up</Link>
           </li>
         </ul>
-      </div>
-
-      {/*  
-      
-      
-      
-      */}
-      {/* HAMBURGER MENU */}
-
-      <div className="hamburger-menu">
-        <button
-          className="hamburger"
-          aria-label="Toggle-menu"
-          aria-expanded="false"
-        >
-          <FontAwesomeIcon icon={faBars} size="lg" />
-        </button>
-        <div className="menu-items">
-          <ul>
-            <li>
-              <Link to="/">Blog</Link>
-            </li>
-            <li>
-              <Link to="/">Recipes</Link>
-            </li>
-            <li>
-              <Link to="/">Key Features</Link>
-            </li>
-            <li>
-              <Link to="/">Our Team</Link>
-            </li>
-            <li>
-              <Link to="/">Sign Up</Link>
-            </li>
-            <li>
-              <Link to="/contactus">Contact Us</Link>
-            </li>
-          </ul>
-        </div>
       </div>
     </nav>
   );
