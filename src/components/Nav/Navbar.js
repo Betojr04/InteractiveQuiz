@@ -1,5 +1,5 @@
 /* This component will be the navbar that will be displayed on the top of the page. It will include the logo, a search bar, and the links to the different pages of the blog. It will be a functional component. */
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../../styles/Navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -25,7 +25,34 @@ export const Navbar = () => {
         </button>
         {/* this button will be hidden and will be used to submit the form with the search input */}
       </form>
+      <div className="nav-items" hidden>
+        <ul>
+          <li>
+            <Link to="/">Blog</Link>
+          </li>
+          <li>
+            <Link to="/">Recipes</Link>
+          </li>
+          <li>
+            <Link to="/">Key Features</Link>
+          </li>
+          <li>
+            <Link to="/">Our Team</Link>
+          </li>
+          <li>
+            <Link to="/">Sign Up</Link>
+          </li>
+          <li>
+            <Link to="/contactus">Contact Us</Link>
+          </li>
+        </ul>
+      </div>
 
+      {/*  
+      
+      
+      
+      */}
       {/* HAMBURGER MENU */}
 
       <div className="hamburger-menu">
@@ -34,9 +61,9 @@ export const Navbar = () => {
           aria-label="Toggle-menu"
           aria-expanded="false"
         >
-          <FontAwesomeIcon icon={faBars} size="s" />
+          <FontAwesomeIcon icon={faBars} size="lg" />
         </button>
-        <div className="menu-items" hidden>
+        <div className="menu-items">
           <ul>
             <li>
               <Link to="/">Blog</Link>

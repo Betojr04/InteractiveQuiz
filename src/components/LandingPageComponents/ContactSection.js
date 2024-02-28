@@ -5,7 +5,7 @@ export const ContactSection = () => {
   return (
     <section>
       <div className="contact-header">
-        <h3>Join The Wellness Revolution</h3>
+        <h3>Subscribe to Receive updates</h3>
         <p>
           Be among the pioneers to embrace a new era of health with Prosperum.
           Get exclusive updates on our journey, including funding news, team
