@@ -26,29 +26,37 @@ export const Navbar = () => {
         </button>
       </form>
 
-      {/* <div className="nav-items"> */}
       <ul className="nav-items">
         <li>
-          <Link to="/">Blog</Link>
+          <Link to="/">
+            <button>Blog</button>
+          </Link>
         </li>
 
         <li>
-          <Link to="/">Recipes</Link>
+          <Link to="/">
+            <button>Our Team</button>
+          </Link>
         </li>
 
         <li>
-          <Link to="/">Key Features</Link>
+          <Link to="/">
+            <button>Features</button>
+          </Link>
         </li>
 
         <li>
-          <Link to="/">Our Team</Link>
+          <Link to="/">
+            <button>Recipe</button>
+          </Link>
         </li>
 
         <li>
-          <Link to="/contactus">Contact Us/Sign Up</Link>
+          <Link to="/contactus">
+            <button>Contact/Sign Up</button>
+          </Link>
         </li>
       </ul>
-      {/* </div> */}
     </nav>
   );
 };
