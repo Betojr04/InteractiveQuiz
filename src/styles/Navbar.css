@@ -72,19 +72,8 @@ form button:hover {
 /* NAV ITEMS STYLING */
 
 .nav-items {
-    /* display: grid;
-    grid-template-columns: repeat(5, auto);
-    grid-gap: 10px;
-    justify-content: flex-end;
-    text-align: center;
-    list-style: none;
-    white-space: nowrap;
-    width: 33vw;
-    margin-right: 2rem; */
-
     display: flex;
     justify-content: flex-end;
-    flex-grow: 1;
     list-style: none;
     padding: 0;
     margin: 0;

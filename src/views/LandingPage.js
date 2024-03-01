@@ -8,12 +8,14 @@ import { HeroSection } from "../components/LandingPageComponents/HeroSection";
 import { SolutionSection } from "../components/LandingPageComponents/SolutionSection";
 import { ContactSection } from "../components/LandingPageComponents/ContactSection";
 import { SocialsSection } from "../components/LandingPageComponents/SocialsSection";
+import { FeatureSection } from "../components/LandingPageComponents/FeaturesSection";
 
 export const LandingPage = () => {
   return (
     <main>
       <HeroSection />
       <SolutionSection />
+      <FeatureSection />
       <ContactSection />
       <SocialsSection />
     </main>
