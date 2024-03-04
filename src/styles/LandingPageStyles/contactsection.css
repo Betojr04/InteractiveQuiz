@@ -1,6 +1,6 @@
 section {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -25,9 +25,24 @@ form {
     justify-content: center;
     align-items: center;
     border: 1px solid #000;
+    width: 90%;
+
 }
 
-.contact-header,
-form {
-    height: 15rem;
+input {
+    margin: 1rem;
+    padding: 1rem;
+    width: 85%;
+    border: 1px solid #000;
+}
+
+.button {
+    margin: 1rem;
+    padding: 1rem;
+    width: 50%;
+    border: 1px solid #000;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 15rem;
 }

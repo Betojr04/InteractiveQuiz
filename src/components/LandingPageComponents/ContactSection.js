@@ -5,7 +5,7 @@ export const ContactSection = () => {
   return (
     <section>
       <div className="contact-header">
-        <h3>Join The Waitlist</h3>
+        <h2>Join The Waitlist</h2>
         <p>
           Be among the pioneers to embrace a new era of health with Prosperum.
           Get exclusive updates on our journey, including funding news, team
@@ -14,14 +14,11 @@ export const ContactSection = () => {
         </p>
       </div>
       <form action="submit">
-        <label htmlFor="name">First Name :</label>
         <input type="text" name="first_name" placeholder="First Name" />
-        <label htmlFor="name">Last Name :</label>
         <input type="text" name="last_name" placeholder="Last Name" />
-        <label htmlFor="email_address">Email Adress :</label>
         <input type="text" name="first_name" placeholder="email@example.com" />
 
-        <input type="submit" value="Submit" />
+        <input className="button" type="submit" value="Submit" />
       </form>
     </section>
   );
