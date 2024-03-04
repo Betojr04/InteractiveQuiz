@@ -1,0 +1,21 @@
+.contact-form {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-section,
+form {
+    flex: 1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form,
+input {
+    width: auto;
+
+}

@@ -3,7 +3,7 @@ import "../../styles/LandingPageStyles/featuressection.css";
 
 export const FeatureSection = () => {
   return (
-    <section>
+    <section className="features">
       <h1>FEATURES</h1>
       <div className="features-container">
         <div className="feature1">Notification</div>

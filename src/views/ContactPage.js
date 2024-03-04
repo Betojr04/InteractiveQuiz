@@ -1,10 +1,10 @@
 import React from "react";
 import { ContactForm } from "../components/ContactPageComponents/ContactForm";
+import "../styles/ContactPageStyles/contactpage.css";
 
 export const ContactPage = () => {
   return (
     <main>
-      <div>ContactPage</div>
       <ContactForm />
     </main>
   );
