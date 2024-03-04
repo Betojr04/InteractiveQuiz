@@ -12,7 +12,7 @@ import { FeatureSection } from "../components/LandingPageComponents/FeaturesSect
 
 export const LandingPage = () => {
   return (
-    <main>
+    <main className="landing-page">
       <HeroSection />
       <SolutionSection />
       <FeatureSection />

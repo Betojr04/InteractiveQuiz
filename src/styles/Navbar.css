@@ -1,91 +1,69 @@
-/* CONTAINER STYLING */
+/* General Container Styling */
 nav {
     border: solid red 1px;
-
-    display: flex;
-    /* flex-direction: row; */
-    justify-content: space-between;
-    align-items: center;
-    /* width: 100%; */
-    height: 3rem;
-    padding: 0 1rem;
+    width: 100vw;
 }
 
-/* LOGO STYLING */
-.nav-logo {
-    /* margin-left: 1rem;
+.navbar-top {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center; */
-    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+}
+
+/* Logo Styling */
+.nav-logo {
+    flex-grow: 1;
     display: flex;
     justify-content: flex-start;
 }
 
+/* Hamburger Button Styling */
+.hamburger {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
 
+/* Expanded Menu Styling */
+.nav-expanded {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
 
+/* Nav Items Styling */
+.nav-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    /* Full width */
+    text-align: center;
+}
 
-/* FORM STYLING */
+.nav-items li {
+    padding: 10px 0;
+}
 
+/* Search Form Styling */
 .nav-search {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    /* align-items: center; */
-    padding: 1rem;
-    flex-grow: 2;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
 }
 
 .nav-search input,
 .nav-search button {
     padding: 0.5rem;
-    border-radius: 5px;
-    border: solid 1px #ccc;
-    margin-right: .5rem;
+    margin: 5px 0;
+    width: 90%;
+    max-width: 300px;
 }
 
-/* .nav-search {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0.3rem;
-}
-
-
-.nav-search input {
-    border-radius: 5px;
-    border: solid 1px #ccc;
-    margin-right: .5rem;
-}
-
-form button {
-    border-radius: 5px;
-    border: solid 1px #ccc;
-} */
-
-form button:hover {
-    background-color: lightblue;
-}
-
-/* NAV ITEMS STYLING */
-
-.nav-items {
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    white-space: nowrap;
-}
-
-.nav-items button {
-    border: none;
-    background-color: transparent;
+.nav-search button {
     cursor: pointer;
-}
-
-.nav-items button:hover {
-    color: lightblue;
 }
