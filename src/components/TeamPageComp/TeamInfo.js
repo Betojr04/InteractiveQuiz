@@ -1,3 +1,5 @@
+import betoImage from "../../assets/beto.jpg";
+
 export const teamMembers = [
   {
     name: "HANN MARTINEZ",
@@ -20,7 +22,7 @@ export const teamMembers = [
   {
     name: "Alberto Valtierra Jr.",
     role: "Software Engineer",
-    img: "https://randomuser.me/api",
+    img: betoImage,
     bio: "Beto brings a vibrant energy to our startup, fueled by his enthusiasm for technology and remarkable ability to rapidly absorb and apply new concepts. Specializing in JavaScript, Java, Python, and Swift, he is dedicated to crafting user-centric web and mobile applications that stand at the intersection of innovation and functionality. Beyond the world of code, Beto seeks adventure and rejuvenation in the great outdoors, whether it's playing soccer, running, or hiking through breathtaking landscapes. His passion for cooking showcases his creative flair, adding a dash of culinary artistry to his repertoire of skills."
   }
 ];
