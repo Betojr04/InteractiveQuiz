@@ -23,6 +23,10 @@ const Recipes = React.lazy(() =>
   import("./Recipes.js").then((module) => ({ default: module.Recipes }))
 );
 
+const Team = React.lazy(() =>
+  import("./Team.js").then((module) => ({ default: module.Team }))
+);
+
 //error boundary
 const ErrorFallback = ({ error, resetErrorBoundary }) => {
   return (
@@ -46,6 +50,7 @@ export const Layout = () => {
             <Route path="/contactus" element={<ContactPage />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/recipes" element={<Recipes />} />
+            <Route path="/team" element={<Team />} />
           </Routes>
         </Suspense>
       </ErrorBoundary>
