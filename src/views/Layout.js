@@ -5,13 +5,22 @@ import { ErrorBoundary } from "react-error-boundary";
 //component imports
 import { Navbar } from "../components/Nav/Navbar.js";
 import { Footer } from "../components/Footer.js";
-//lazy loading
+
+//lazy loading imports
 const LandingPage = React.lazy(() =>
   import("./LandingPage.js").then((module) => ({ default: module.LandingPage }))
 );
 
 const ContactPage = React.lazy(() =>
   import("./ContactPage.js").then((module) => ({ default: module.ContactPage }))
+);
+
+const Blog = React.lazy(() =>
+  import("./Blog.js").then((module) => ({ default: module.Blog }))
+);
+
+const Recipes = React.lazy(() =>
+  import("./Recipes.js").then((module) => ({ default: module.Recipes }))
 );
 
 //error boundary
@@ -35,6 +44,8 @@ export const Layout = () => {
           <Routes>
             <Route path="/" element={<LandingPage />} />
             <Route path="/contactus" element={<ContactPage />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/recipes" element={<Recipes />} />
           </Routes>
         </Suspense>
       </ErrorBoundary>

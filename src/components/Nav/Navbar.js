@@ -24,16 +24,16 @@ export const Navbar = () => {
         <div className="nav-expanded">
           <ul className="nav-items">
             <li>
-              <Link to="/">Blog</Link>
+              <Link to="/blog">Blog</Link>
             </li>
             <li>
-              <Link to="/">Our Team</Link>
+              <Link to="/team">Our Team</Link>
             </li>
             <li>
-              <Link to="/">Features</Link>
+              <Link to="/features">Features</Link>
             </li>
             <li>
-              <Link to="/">Recipe</Link>
+              <Link to="/recipes">Recipes</Link>
             </li>
             <li>
               <Link to="/contactus">Contact/Sign Up</Link>
