@@ -3,7 +3,7 @@ This is the display page of the blog. It will include the main content of the bl
 */
 import React from "react";
 
-export const Display = () => {
+export const BlogDisplay = () => {
   return (
     <section>
       this is the lay out of the blog and will be where all the blogs are
