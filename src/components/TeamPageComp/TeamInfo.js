@@ -1,16 +1,18 @@
 import betoImage from "../../assets/beto.jpg";
+import AnnmarieImage from "../../assets/AnnMarie.jpeg";
+import HannahImage from "../../assets/Hannah.jpeg";
 
 export const teamMembers = [
   {
-    name: "HANN MARTINEZ",
+    name: "HANNAH MARTINEZ",
     role: "CEO",
-    img: "https://randomuser.me/api",
+    img: HannahImage,
     bio: "Hannah brings a unique blend of passion for human genetics, clinical nutrition, and entrepreneurship to the table. Her journey from a dedicated worker to an ambitious entrepreneur shows a relentless pursuit of excellence. With a Bachelor's in Science for Human Genetics and a Master's in Science for Clinical Nutrition, Hannah’s academic and professional paths have been anything but conventional. From working in the food industry to her impactful roles in the non-profit and financial sectors, each step has been a building block towards founding Prosperum.Hannah’s drive is fueled by a commitment to positivity, compassion, and embracing change. She believes in the power of resilience, the importance of human connection, and the potential for innovation to drive societal progress. As a leader of Prosperm, Hannah is determined to leverage her background and values to make a significant impact in the health sector."
   },
   {
     name: "ANN MARIE MONTEIRO",
     role: "co-Founder and COO",
-    img: "https://randomuser.me/api",
+    img: AnnmarieImage,
     bio: "Ann Marie has a Master of Science in Clinical Nutrition, she is a Wellness Chef and Certified Health Coach. Throughout her career, Ann Marie has worked with some of the industry’s top chefs refining her culinary skills and pushing the boundaries of what can be achieved in the kitchen with mostly plant-based, sustainable ingredients. As a nutrition scientist and certified health coach, she has guided and supported hundreds of individuals in their wellness journeys, empowering them to take control of their nutrition and well-being with simple diet and lifestyle changes.Ann Marie’s aspiration to make good nutrition accessible to everyone led her to her partnership with Hannah. Together they aim to provide people with the tools and knowledge needed to make informed choices about their nutrition and improve their health."
   },
   {
