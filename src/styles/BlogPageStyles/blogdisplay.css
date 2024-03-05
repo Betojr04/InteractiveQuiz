@@ -1,0 +1,42 @@
+/* BlogDisplay.css */
+
+.blog-post {
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.blog-post img {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+}
+
+/* This styles the container that holds the text elements (date, title, snippet, and link) */
+.blog-post>div {
+    padding: 0.5rem;
+    margin-left: 10%;
+    /* Aligns the text container with the image's left edge */
+    margin-right: 10%;
+    /* Maintains consistent spacing on the right */
+}
+
+/* Style for the date, title, snippet, and 'Read More' link */
+.blog-post h4,
+.blog-post h1,
+.blog-post p,
+.blog-post a {
+    margin: 0.5rem 0;
+}
+
+.blog-post h4 {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.blog-post a {
+    display: inline-block;
+    color: blue;
+    text-decoration: underline;
+}
