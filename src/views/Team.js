@@ -1,5 +1,6 @@
 import React from "react";
 import { TeamDisplay } from "../components/TeamPageComp/TeamDisplay.js";
+import "../styles/TeamPageStyles/teampage.css";
 
 export const Team = () => {
   return (
