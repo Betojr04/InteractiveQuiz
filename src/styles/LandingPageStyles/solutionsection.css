@@ -15,9 +15,16 @@
 .problem-text h2,
 p {
     text-align: center;
+    color: #2c94cc;
+
 }
 
 .solution-text h2,
 p {
     text-align: center;
+    color: #2c94cc;
+}
+
+h2 {
+    text-decoration: underline;
 }

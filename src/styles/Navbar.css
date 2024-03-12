@@ -8,14 +8,21 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 3rem;
+    height: 6rem;
 }
 
 /* Logo Styling */
-.nav-logo {
+/* .nav-logo {
     flex-grow: 1;
     display: flex;
     justify-content: flex-start;
+
+} */
+
+.logo {
+    width: 60px;
+    height: 50px;
+    margin-left: 10px;
 }
 
 /* Hamburger Button Styling */

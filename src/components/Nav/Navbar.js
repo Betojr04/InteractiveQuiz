@@ -4,6 +4,8 @@ import "../../styles/Navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
+import logo from "../../assets/logo.ico";
+
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -11,7 +13,9 @@ export const Navbar = () => {
     <nav>
       <div className="navbar-top">
         <div className="nav-logo">
-          <Link to="/">Logo</Link>
+          <Link to="/">
+            <img src={logo} alt="Logo" className="logo" />
+          </Link>
         </div>
         <button
           className="hamburger"
