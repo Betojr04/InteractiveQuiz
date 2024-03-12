@@ -1,24 +1,19 @@
 .hero-section {
     width: 100%;
-    background-image: url("../../assets/prosphero.jpeg");
+    background-image: url("../../assets/winner.png");
     background: cover;
     background-position: center;
-    height: 56vh;
-
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero-section h1 {
+    position: absolute;
+    top: 10%;
     text-align: center;
-    margin-top: 2rem;
     font-family: Arial, Helvetica, sans-serif;
     color: #2c94cc;
-    font-weight: skinny;
-}
-
-.hero-section p {
-    text-align: center;
-    margin-top: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #2c94cc;
-    font-weight: skinny;
+    font-size: 3.5rem;
 }
