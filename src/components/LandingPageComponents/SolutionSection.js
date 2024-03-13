@@ -5,7 +5,7 @@ export const SolutionSection = () => {
   return (
     <section className="solution-section">
       <div className="problem-text">
-        <h2>The Problem</h2>
+        <h2 className="problem-title">The Problem</h2>
         <p>
           Today's health tech obsession with calories overlooks the essence of
           true well-being. This narrow view leads to frustration and a
@@ -15,7 +15,7 @@ export const SolutionSection = () => {
         </p>
       </div>
       <div className="solution-text">
-        <h2>The Solution</h2>
+        <h2 className="solution-title">The Solution</h2>
         <p>
           Prosperum redefines health tech by prioritizing nutrient balance over
           calorie counting. Our streamlined apps guide you towards informed

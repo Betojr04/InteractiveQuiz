@@ -5,8 +5,26 @@
     align-items: center;
 }
 
+.title {
+    color: #2c94cc;
+    font-family: bakersville;
+    font-size: 2rem;
+}
+
 .features-container {
     display: flex;
     flex-direction: row;
+}
+
+.feature1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     flex: 1;
+}
+
+.feature1 img {
+    width: 100px;
+    height: 100px;
 }

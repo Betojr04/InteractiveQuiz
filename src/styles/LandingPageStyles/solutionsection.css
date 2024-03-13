@@ -25,6 +25,9 @@ p {
     color: #2c94cc;
 }
 
-h2 {
+.problem-title,
+.solution-title {
     text-decoration: underline;
+    font-size: 1.6rem;
+    font-family: bakersville;
 }

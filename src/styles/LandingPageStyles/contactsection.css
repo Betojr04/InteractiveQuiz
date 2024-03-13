@@ -15,8 +15,11 @@ section {
     margin-bottom: 2rem;
 }
 
-h2 {
+.contact-title {
     color: #2c94cc;
+    font-family: bakersville;
+    font-size: 2rem;
+    text-decoration: none;
 }
 
 
@@ -27,7 +30,6 @@ form {
     justify-content: center;
     align-items: center;
     width: 90%;
-
 }
 
 input {

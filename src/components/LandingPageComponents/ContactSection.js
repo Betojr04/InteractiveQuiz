@@ -5,7 +5,7 @@ export const ContactSection = () => {
   return (
     <section>
       <div className="contact-header">
-        <h2>Join The Waitlist</h2>
+        <h2 className="contact-title">Join The Waitlist</h2>
         <p>
           Be among the pioneers to embrace a new era of health with Prosperum.
           Get exclusive updates on our journey, including funding news, team
