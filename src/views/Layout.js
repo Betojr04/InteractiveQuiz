@@ -2,11 +2,9 @@ import React, { Suspense } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { ErrorBoundary } from "react-error-boundary";
 
-//component imports
 import { Navbar } from "../components/Nav/Navbar.js";
 import { Footer } from "../components/Footer.js";
 
-//lazy loading imports
 const LandingPage = React.lazy(() =>
   import("./LandingPage.js").then((module) => ({ default: module.LandingPage }))
 );
